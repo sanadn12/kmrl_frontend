@@ -1,12 +1,27 @@
-# React + Vite
+# KMRL Document Management Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite prototype** for Kochi Metro Rail Limited (KMRL), aimed at demonstrating a simple dashboard and document upload interface for internal staff. The prototype focuses on **rapid document visualization, upload, and basic routing** for the hackathon.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Login page (mock, frontend-only)
+- Dashboard displaying sample documents (HR, Engineering, Finance, Legal)
+- Upload form to add new documents
+- Navbar shown only after login
+- Routing between Login, Dashboard, and Upload pages
+- Styled with Tailwind CSS for a clean and responsive UI
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js v18+ installed
+- npm or yarn
+
+### Installation
+
+```bash
+git clone <your-repo-url>
+cd kmrl-prototype
+npm install
+npm run dev
