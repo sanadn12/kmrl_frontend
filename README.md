@@ -22,6 +22,6 @@ This project is a **React + Vite prototype** for Kochi Metro Rail Limited (KMRL)
 
 ```bash
 git clone <your-repo-url>
-cd kmrl-prototype
+cd kmrl
 npm install
 npm run dev
